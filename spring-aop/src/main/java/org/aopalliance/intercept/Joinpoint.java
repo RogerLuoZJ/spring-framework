@@ -33,7 +33,7 @@ import java.lang.reflect.AccessibleObject;
  * method, a constructor, a field), i.e. the static part of the
  * joinpoint. It is passed to the interceptors that are installed on
  * the static joinpoint.
- *
+ * 注入点 一个静态概念，以为着程序变异后，注入点其实已经固定
  * @author Rod Johnson
  * @see Interceptor
  */
@@ -59,6 +59,7 @@ public interface Joinpoint {
 	 * Return the static part of this joinpoint.
 	 * <p>The static part is an accessible object on which a chain of
 	 * interceptors are installed.
+	 * 注入点的对应对象
 	 */
 	AccessibleObject getStaticPart();
 

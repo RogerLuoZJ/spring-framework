@@ -64,6 +64,7 @@ import org.aopalliance.aop.Advice;
  * @author Rod Johnson
  * @see Joinpoint
  */
+//运行时的切面 作为基类
 public interface Interceptor extends Advice {
 
 }

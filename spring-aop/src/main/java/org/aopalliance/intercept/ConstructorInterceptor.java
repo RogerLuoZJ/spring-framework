@@ -26,6 +26,7 @@ package org.aopalliance.intercept;
  * class):
  *
  * <pre class=code>
+ *  单例
  * class DebuggingInterceptor implements ConstructorInterceptor {
  *   Object instance=null;
  *
